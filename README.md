@@ -89,7 +89,7 @@ php artisan serve
 </tr>
 <tr>
 <td><h3 align="center">📦 Manajemen Produk</h3><img src="public/backend/image/screenshot/ss_produk.png"></td>
-<td><h3 align="center">🖼️ Galeri Produk</h3><img src="public/backend/image/screenshot/ss_tambah_gambar_produk.png"></td>
+<td><h3 align="center">🖼️ Galeri Produk</h3><img src="public/backend/image/screenshot/Screenshot 2025-05-26 162009.png"></td>
 </tr>
 <tr>
 <td><h3 align="center">📊 Laporan User</h3><img src="public/backend/image/screenshot/ss_laporan_user.png"></td>
