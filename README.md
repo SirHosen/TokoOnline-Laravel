@@ -28,7 +28,7 @@ Sebelum menginstall, pastikan sistem Anda telah memenuhi kebutuhan berikut:
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/yuris60/TokoOnline.git
+git clone https://github.com/SirHosen/TokoOnline-Laravel.git
 ```
 
 ### 2. Install Dependensi
