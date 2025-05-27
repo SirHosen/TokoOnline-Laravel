@@ -23,32 +23,18 @@ class DatabaseSeeder extends Seeder
             'role' => '1',
             'status' => 1,
             'hp' => '08123456789',
-            'password' => bcrypt('P@55word'),
+            'password' => bcrypt('admin'),
         ]);
         User::factory()->create([
-            'nama' => 'Yuris ALkhalifi',
-            'email' => 'yuris@gmail.com',
+            'nama' => 'Hosea Oktarivanes',
+            'email' => 'hosea@gmail.com',
             'role' => '0',
             'status' => 1,
             'hp' => '08234567890',
-            'password' => bcrypt('P@55word'),
+            'password' => bcrypt('hosea'),
         ]);
 
         // KATEGORI
-        Kategori::create([
-            'nama_kategori' => 'Monitor'
-        ]);
-        Kategori::create([
-            'nama_kategori' => 'Keyboard'
-        ]);
-        Kategori::create([
-            'nama_kategori' => 'Flashdisk'
-        ]);
-        Kategori::create([
-            'nama_kategori' => 'Mouse'
-        ]);
-        Kategori::create([
-            'nama_kategori' => 'Cooling Pad'
-        ]);
+    
     }
 }

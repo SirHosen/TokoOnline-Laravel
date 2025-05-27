@@ -244,7 +244,7 @@
       <!-- footer -->
       <!-- ============================================================== -->
       <footer class="footer text-center">
-        Copyright &copy; 2024 | Toko Online | by Hosea Oktarivanes
+        Copyright &copy; 2025 | Toko Online | by Hosea Oktarivanes
       </footer>
       <!-- ============================================================== -->
       <!-- End footer -->
