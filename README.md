@@ -20,9 +20,8 @@ Sebelum menginstall, pastikan sistem Anda telah memenuhi kebutuhan berikut:
 - [x] Git
 - [x] Composer
 - [x] Code Editor `VS Code, Sublime Text atau sejenisnya`
-- [x] Web Server `Laragon, XAMPP atau sejenisnya`
+- [x] Web Server `Laragon, Apache2`
 - [x] Web Browser `Chrome, Firefox atau sejenisnya`
-- [x] Node.js `(opsional)`
 
 ## 🔧 Panduan Instalasi
 
