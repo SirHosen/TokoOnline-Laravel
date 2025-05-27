@@ -9,11 +9,6 @@ Project ini merupakan implementasi E-Commerce berbasis Laravel yang dikembangkan
 
 **Developed by: Hosea Oktarivanes | 17220987**
 
-## 📊 Arsitektur Database
-<p align="center"><img src="public/backend/image/screenshot/ss_relasi.jpg" width="700" alt="Database Relationship"></p>
-
-Sistem ini dibangun dengan struktur relasional yang komprehensif untuk mendukung seluruh operasional toko online, termasuk manajemen produk, kategori, pengguna, dan transaksi.
-
 ## ⚙️ Prasyarat Sistem
 Sebelum menginstall, pastikan sistem Anda telah memenuhi kebutuhan berikut:
 
@@ -22,79 +17,6 @@ Sebelum menginstall, pastikan sistem Anda telah memenuhi kebutuhan berikut:
 - [x] Code Editor `VS Code, Sublime Text atau sejenisnya`
 - [x] Web Server `Laragon, Apache2`
 - [x] Web Browser `Chrome, Firefox atau sejenisnya`
-
-## 🔧 Panduan Instalasi
-
-### 1. Clone Repository
-```bash
-git clone https://github.com/SirHosen/TokoOnline-Laravel.git
-```
-
-### 2. Install Dependensi
-Buka project menggunakan Code Editor, lalu jalankan perintah berikut pada terminal:
-```bash
-composer install
-```
-
-### 3. Konfigurasi Environment
-Duplikat file `.env.example` menjadi `.env` dan sesuaikan konfigurasi database:
-```
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=db_tokoonline
-DB_USERNAME=root
-DB_PASSWORD=
-```
-
-### 4. Generate Application Key
-```bash
-php artisan key:generate
-```
-
-### 5. Setup Storage Link
-```bash
-php artisan storage:link
-```
-
-### 6. Migrasi Database dan Seeding
-```bash
-php artisan migrate:fresh --seed
-```
-
-### 7. Jalankan Server
-```bash
-php artisan serve
-```
-
-## 🖥️ Fitur Utama
-
-- **Manajemen Pengguna**: Sistem role-based untuk admin dan pelanggan
-- **Katalog Produk**: Pengelolaan produk dengan multiple image
-- **Kategori**: Pengorganisasian produk berdasarkan kategori
-- **Laporan**: Generasi laporan user dan produk
-- **Responsive Design**: Antarmuka yang responsif untuk berbagai perangkat
-
-## 📸 Screenshot Aplikasi
-
-<table width="100%">
-<tr>
-<td><h3 align="center">🔐 Login</h3><img src="public/backend/image/screenshot/ss_login.png"></td>
-<td><h3 align="center">🏠 Dashboard</h3><img src="public/backend/image/screenshot/ss_home.png"></td>
-</tr>
-<tr>
-<td><h3 align="center">👤 Manajemen User</h3><img src="public/backend/image/screenshot/ss_user.png"></td>
-<td><h3 align="center">🏷️ Kategori Produk</h3><img src="public/backend/image/screenshot/ss_kategori.png"></td>
-</tr>
-<tr>
-<td><h3 align="center">📦 Manajemen Produk</h3><img src="public/backend/image/screenshot/ss_produk.png"></td>
-<td><h3 align="center">🖼️ Galeri Produk</h3><img src="public/backend/image/screenshot/Screenshot 2025-05-26 162009.png"></td>
-</tr>
-<tr>
-<td><h3 align="center">📊 Laporan User</h3><img src="public/backend/image/screenshot/ss_laporan_user.png"></td>
-<td><h3 align="center">📈 Laporan Produk</h3><img src="public/backend/image/screenshot/ss_laporan_produk.png"></td>
-</tr>
-</table>
 
 ## 🛠️ Teknologi yang Digunakan
 
