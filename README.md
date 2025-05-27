@@ -9,15 +9,6 @@ Project ini merupakan implementasi E-Commerce berbasis Laravel yang dikembangkan
 
 **Developed by: Hosea Oktarivanes | 17220987**
 
-## ⚙️ Prasyarat Sistem
-Sebelum menginstall, pastikan sistem Anda telah memenuhi kebutuhan berikut:
-
-- [x] Git
-- [x] Composer
-- [x] Code Editor `VS Code, Sublime Text atau sejenisnya`
-- [x] Web Server `Laragon, Apache2`
-- [x] Web Browser `Chrome, Firefox atau sejenisnya`
-
 ## 🛠️ Teknologi yang Digunakan
 
 - **Backend**: Laravel 11
