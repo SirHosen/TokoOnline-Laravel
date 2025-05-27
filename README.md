@@ -99,10 +99,10 @@ php artisan serve
 
 ## 🛠️ Teknologi yang Digunakan
 
-- **Backend**: Laravel 8
+- **Backend**: Laravel 11
 - **Frontend**: Bootstrap 4, jQuery
 - **Database**: MySQL
-- **Authentication**: Laravel Fortify
+- **Authentication**: Laravel Sanctum
 - **PDF Generation**: DomPDF
 
 ## 📜 Lisensi
